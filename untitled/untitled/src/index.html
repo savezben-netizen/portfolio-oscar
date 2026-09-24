@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | Sylvain Pierre Durif</title>
+
+    <!-- Feuille de style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         EN-TÊTE ET NAVIGATION
+         ========================= -->
+
+    <header>
+        <nav class="navbar" aria-label="Navigation principale">
+
+            <!-- Nom -->
+            <a href="#" class="logo">Sylvain Pierre Durif</a>
+
+            <!-- Navigation -->
+            <div class="nav-links">
+                <a href="#profil">Profil</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#contact">Contact</a>
+
+                <!-- Bouton du mode sombre -->
+                <button
+                    id="theme-button"
+                    type="button"
+                    aria-pressed="false">
+                    Mode sombre
+                </button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             PRÉSENTATION
+             ========================= -->
+
+        <section class="hero" id="profil">
+
+            <div class="hero-text">
+
+                <p class="intro">
+                    Étudiant en école de commerce
+                </p>
+
+                <h1>
+                    Sylvain Pierre Durif
+                </h1>
+
+                <p>
+                    Étudiant en école de commerce, je m'intéresse
+                    particulièrement au marketing, à la finance,
+                    à la gestion de projet et au développement commercial.
+                    Je souhaite développer mes compétences et les mettre
+                    au service d'une entreprise.
+                </p>
+
+                <!-- Bouton vers le contact -->
+                <a href="#contact" class="button">
+                    Me contacter
+                </a>
+
+            </div>
+
+
+            <!-- Photo de profil -->
+            <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/59/Sylvain_Durif.jpg?utm_source=fr.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+                alt="Portrait de Sylvain Pierre Durif"
+                class="profile-image">
+
+        </section>
+
+
+        <!-- =========================
+             COMPÉTENCES
+             ========================= -->
+
+        <section id="competences" class="reveal">
+
+            <h2>
+                Mes compétences
+            </h2>
+
+            <div class="skills">
+
+                <article class="card">
+                    <h3>
+                        Marketing
+                    </h3>
+
+                    <p>
+                        Analyse du marché, compréhension des besoins
+                        clients et réflexion stratégique.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <h3>
+                        Gestion de projet
+                    </h3>
+
+                    <p>
+                        Organisation, planification et suivi
+                        des différentes étapes d'un projet.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <h3>
+                        Communication
+                    </h3>
+
+                    <p>
+                        Présentation orale, travail en équipe
+                        et communication professionnelle.
+                    </p>
+                </article>
+
+
+                <article class="card">
+                    <h3>
+                        Analyse
+                    </h3>
+
+                    <p>
+                        Analyse d'informations, synthèse et
+                        interprétation de données.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJETS
+             ========================= -->
+
+        <section id="projets" class="reveal">
+
+            <h2>
+                Mes projets
+            </h2>
+
+            <div class="projects">
+
+                <article class="card">
+
+                    <h3>
+                        Étude marketing
+                    </h3>
+
+                    <p>
+                        Réalisation d'une étude de marché et conception
+                        d'une stratégie marketing adaptée aux objectifs
+                        d'une entreprise.
+                    </p>
+
+                </article>
+
+
+                <article class="card">
+
+                    <h3>
+                        Projet entrepreneurial
+                    </h3>
+
+                    <p>
+                        Travail en équipe autour de la création d'un concept,
+                        de son modèle économique et de sa présentation.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT
+             ========================= -->
+
+        <section id="contact" class="contact reveal">
+
+            <h2>
+                Me contacter
+            </h2>
+
+            <p>
+                Vous souhaitez échanger ? N'hésitez pas à me contacter.
+            </p>
+
+            <!-- Remplace l'adresse par ton adresse personnelle -->
+            <a
+                href="mailto:sylvain.pierre.durif@email.com"
+                class="button">
+                Envoyer un e-mail
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         PIED DE PAGE
+         ========================= -->
+
+    <footer>
+
+        <!-- L'année est ajoutée automatiquement par JavaScript -->
+        <p>
+            © <span id="current-year"></span> Sylvain Pierre Durif
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
